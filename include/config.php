@@ -4,7 +4,7 @@
 	// 数据库用户
 	define('DB_USER','root');
 	//数据库密码
-	define('DB_PASSWORD','19920830');
+	define('DB_PASSWORD','920830');
 
 
 ?>
