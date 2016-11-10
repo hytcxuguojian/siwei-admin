@@ -45,6 +45,8 @@
  <body>
  	<ul>
  		<?php 
+ 			echo '--------------------------------数据--------------------------------------';
+ 			echo '<br>';
  			$html = '';
  			foreach ($res as $key => $value) {
  				$html .='<li>姓名：'.$value->name.'，手机号：'.$value->mobile.'，IP地址：'.$value->ip_address.'，IP所在地：'.$value->ip_city.'</li>';
